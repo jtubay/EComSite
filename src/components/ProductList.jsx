@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
-import Product from './Product'
+import Product from './Product.jsx'
 import Title from './Title.jsx'
-import {storeProducts} from '../data'
+// import {storeProducts} from '../data'
 import {ProductConsumer} from '../context'
 
 
 export default class ProductList extends Component {
-    state={
-        products:storeProducts
-    }
+    // state={
+    //     products:storeProducts
+    // }
     render() {
         // console.log(this.state.products);
         return (

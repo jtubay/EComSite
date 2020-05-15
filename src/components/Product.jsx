@@ -21,6 +21,16 @@ export default class Product extends Component {
                        {inCart?(<p className="text-capitalize mb-0" disabled>{" "}in Cart</p>) : (<i className="fas fa-cart-plus"/>)}
                         </button> 
                     </div> 
+                    <div className="card-footer d-flex justify-content-between">
+                        <p className="align-self-center mb-0">
+                            {title}
+                        </p>
+                        <h5 className="text-blue font-italic mb-0">
+                            <span className="mr-1">
+                                ${price}
+                            </span>
+                        </h5>
+                    </div>
                 </div>
             </ProductWrapper>
         )
